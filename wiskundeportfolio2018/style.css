@@ -1,0 +1,33 @@
+body{
+  background-color: aliceblue;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+
+html{
+  height: 100%;
+}
+
+#container{
+  display: grid;
+  grid-template-columns: 300px auto;
+  width: 100%;
+  height: 100%;
+}
+
+#myMenu{
+  background-color: purple;
+  border: 2px red solid;
+  grid-column: 1/2;
+}
+
+#myIframe{
+  background-color: red;
+  border: 2px blue outset;
+  grid-column: 2/3;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
